@@ -56,7 +56,7 @@ nav a{
 
 .btn:hover{
     background-color: black;
-    color: #262626;
+    color: white;
 }
 @keyframes animate{
     0%{
