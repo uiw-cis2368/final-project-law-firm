@@ -1,0 +1,16 @@
+html, body {height:100%;}
+
+.background-image {
+  background-image: url(Skyline.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
