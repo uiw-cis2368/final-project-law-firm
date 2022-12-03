@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+
+    <script src="https://kit.fontawesome.com/d614b186e0.js" crossorigin="anonymous"></script>
+
+    <nav>
+        <a href="homepage.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <div class="area1">
+            <div class="contact">
+                <form>
+            
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="Full Name" placeholder="Full Name">
+      
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" name="phone number" placeholder="Ex. (210) 345-5678">
+            
+                <label for="lname">Email Address</label>
+                <input type="text" id="lname" name="lastname" placeholder="Ex. johnsmith2@gmail.com">
+            
+                <label for="County">County</label>
+                <select id="County" name="County">
+                    <option value="Atascosa">Atascosa</option>
+                  <option value="Bandera">Bandera</option>
+                  <option value="Bexar">Bexar</option>
+                  <option value="Comal">Comal</option>
+                  <option value="Guadalupe">Guadalupe</option>
+                  <option value="Kendall">Kendall</option>
+                  <option value="Medina">Medina</option>
+                  <option value="Wilson">Wilson</option>
+                  
+                </select>
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Please give us a brief summary of your case..." ></textarea>
+            
+                <input type="submit" onclick="prompt()" type="button" value="Submit">
+            
+              </form>
+            </div> 
+        </div>
+
+        <div class="area2">
+            <div class="center">
+                <div class="txt">
+                    <div class="info">
+                        <i class="fa-solid fa-location-arrow"></i>
+                        Located at the Student Engagement Center in rm. 409
+                    </div>
+            
+                    <div class="call">
+                        <i class="fa-solid fa-phone"></i>
+                        (210) 555-5555
+                    </div>
+            
+                    <div class="email">
+                        <i class="fa-solid fa-envelope"></i>
+                        brittany.brown@yeelaw.com
+                    </div>
+                
+                    <div class="icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+
+                    <div class="socials">
+                        Follow our socials
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="area3">
+
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3473.685407731036!2d-98.46869787083429!3d29.46719535256609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865cf59eb2ea3ac9%3A0x9bef805effbf5fd2!2sUIW%20Student%20Engagement%20Center!5e0!3m2!1sen!2sus!4v1668647320582!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function prompt() {
+        alert("Message Sent");
+        return false;
+        }
+
+    </script>
+
+</body>
+</html>
